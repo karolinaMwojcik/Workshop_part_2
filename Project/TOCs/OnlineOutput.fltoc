@@ -1,10 +1,11 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <CatapultToc
   Version="1"
   conditions="">
   <TocEntry
     Title="[%=System.LinkedTitle%]"
-    Link="/Content/A_Introduction Topics/Welcome.htm" />
+    Link="/Content/A_Introduction Topics/Welcome.htm"
+    conditions="General.PDF" />
   <TocEntry
     Title="[%=System.LinkedTitle%]"
     Link="/Content/A_Introduction Topics/WhatsNew.htm" />
@@ -15,6 +16,10 @@
     Title="[%=System.LinkedTitle%]"
     Link="/Content/B_Feature Topics/Features.htm"
     StartSection="false">
+    <TocEntry
+      Title="Read First"
+      Link="/Content/Read First.pdf"
+      conditions="General.Online" />
     <TocEntry
       Title="[%=System.LinkedTitle%]"
       Link="/Content/B_Feature Topics/Feature1.htm" />
